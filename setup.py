@@ -38,10 +38,6 @@ setup(
     author_email='parrt@cs.usfca.edu',
     python_requires='>=3.6',
     install_requires=['graphviz>=0.14.1','numpy','IPython', 'matplotlib'],
-    extras_require = {'all': all_requires,
-                      'torch': torch_requires,
-                      'tensorflow': tensorflow_requires
-                     },
     description='The goal of this library is to generate more helpful exception messages for numpy/pytorch tensor algebra expressions.',
 #    keywords='visualization data structures',
     classifiers=['License :: OSI Approved :: MIT License',
